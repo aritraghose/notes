@@ -31,8 +31,8 @@
 > `HEAD` points to the latest commit
 - `git log --oneline`
 - `git reset --hard <commit_hash>`
-> But `Git Reset` deletes all commit history after the `HEAD`. So if we reset back to the 3rd last commit, 2nd and current commit is deleted
-> But sometimes we want a new commit to be created instead, which should have the states from the commit we want, without deleting the prior commit history
+> - But `Git Reset` deletes all commit history after the `HEAD`. So if we reset back to the 3rd last commit, 2nd and current commit is deleted
+> - But sometimes we want a new commit to be created instead, which should have the states from the commit we want, without deleting the prior commit history
 - `git revert <comnmit hash>`  --> creates a new commit changing the codebase based on a prev commit
 - 
 
