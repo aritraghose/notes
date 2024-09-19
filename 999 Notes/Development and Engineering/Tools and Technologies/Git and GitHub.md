@@ -22,6 +22,7 @@
 ### git commit and revert
 
 - `git commit -m "added first commit"`  --> commit files or folders
+- `git commit -a -m "commit message"`  --> add and commit together
 - `git log`  --> to check the commit history
 - `q`   --> press *q* to quit 
 - `git log --oneline`  --> shorter commit history
@@ -51,3 +52,42 @@
 - `git push -u origin main`  --> 
 - `git push`  --> push to remote
 - `git pull`  --> pull from the remote
+- `git push -f`  --> force push
+
+
+### Branching, Merging and Rebasing
+
+- `git branch`  --> check which branch we are currently working in
+- `git branch "new-branch"` --> creates a new branch // `git branch <"BRANCH_NAME">`
+- `git checkout new-branch` --> switch to a branch
+- `git branch -b "new-branch"`  --> create a new branch and switch to it
+
+> - Make some some changes and then commit the changes to the newly created branch. The new created branch will be ahead of the main branch. 
+> - Now, when we do `git push`, it will not work since the remote repository does not have the branch we are working in. So,
+- `git push --set-upstream origin new-branch`  -->  this creates the new branch in the remote repo and pushes the code to it.
+
+>Now when we want to merge this newly created branch with the `main`:
+- `git merge origin/new-branch`
+- `git push`
+
+> - Now say, we created the new branch in the remote repo, we will have an option showing up on GitHub that asks us to do "**Compare and pull request**"
+> - Click on it and add a title to the request and hit the "Create a pull request"
+> - Now the owner/collaborators of the repo can review and merge the pull request
+> - Note that, once merged, it will merge with the remote repo. We must `git pull` it to our local.
+
+> When merging a branch with the main, the entire commit history of that new branch is packed into a new commit added to the main. So that branch history is lost. *Rebase* solves this.
+> What rebase does is that, all the commit history is added linearly with the current head of the main and the new head now points to the last commit.
+> But using rebase can make the commit history huge, so we tend to avoid it.
+
+- `git rebase branch-3`  --> rebase `branch-3`
+
+
+### Stashing
+
+> - There are times when the remote codebase is updated with some code from other developers, and local repo is also updated by us. But we are not going to stage or commit our local code.
+> - In that case, without doing commit, we will not be able to pull the remote changes.
+> - Stashing temporarily stores the local unsaved codes so that we can pull right away.
+
+- `git stash` --> stores temporarily the unsaved local changes
+- `git pull`  --> pull the remote changes
+- `git stash apply` --> now paste back the unsaved local changes

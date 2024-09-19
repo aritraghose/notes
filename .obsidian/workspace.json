@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 233.5,
+    "collapsed": true
   },
   "right": {
     "id": "ac18159ce3289630",
@@ -149,16 +150,17 @@
   },
   "active": "ccf6f621b1718210",
   "lastOpenFiles": [
-    "555 Templates/Topic Name.md",
     "999 Notes/Development and Engineering/Tools and Technologies/Node Commands.md",
-    "999 Notes/Development and Engineering/0. Web Development/00. JS Foundation.md",
-    "999 Notes/Development and Engineering/0. Web Development/01. JavaScript built-in Functions and Methods.md",
-    "999 Notes/Development and Engineering/0. Web Development/04. NodeJS and ExpressJS.md",
+    "README.md",
     "999 Notes/Development and Engineering/Tools and Technologies/Git and GitHub.md",
-    "999 Notes/Development and Engineering/0. Web Development/Query Parameters.md",
-    "000 Dashboard/Goals.md",
     "999 Notes/Development and Engineering/Tools and Technologies/Bash and CLI.md",
     "999 Notes/Development and Engineering/0. Web Development/03. Callbacks and Asynchronous JavaScript.md",
+    "999 Notes/Development and Engineering/0. Web Development/01. JavaScript built-in Functions and Methods.md",
+    "999 Notes/Development and Engineering/0. Web Development/00. JS Foundation.md",
+    "555 Templates/Topic Name.md",
+    "999 Notes/Development and Engineering/0. Web Development/04. NodeJS and ExpressJS.md",
+    "999 Notes/Development and Engineering/0. Web Development/Query Parameters.md",
+    "000 Dashboard/Goals.md",
     "999 Notes/Development and Engineering/Tools and Technologies",
     "999 Notes/Web Development/Javascript/03..md",
     "().md",
