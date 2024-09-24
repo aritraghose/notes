@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b875846fa9364fa1",
+        "id": "840557d77ffc476a",
         "type": "tabs",
         "children": [
           {
-            "id": "ccf6f621b1718210",
+            "id": "d3a7da96627b8659",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "999 Notes/Development and Engineering/Tools and Technologies/Git and GitHub.md",
+                "file": "999 Notes/Development and Engineering/0. Web Development/05. Query Parameters and Basic HTTP Requests.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "999 Notes/Development and Engineering/Tools and Technologies/Git and GitHub.md",
+                "file": "999 Notes/Development and Engineering/0. Web Development/05. Query Parameters and Basic HTTP Requests.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "999 Notes/Development and Engineering/Tools and Technologies/Git and GitHub.md",
+                "file": "999 Notes/Development and Engineering/0. Web Development/05. Query Parameters and Basic HTTP Requests.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "999 Notes/Development and Engineering/Tools and Technologies/Git and GitHub.md"
+                "file": "999 Notes/Development and Engineering/0. Web Development/05. Query Parameters and Basic HTTP Requests.md"
               }
             }
           }
@@ -148,18 +148,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccf6f621b1718210",
+  "active": "d3a7da96627b8659",
   "lastOpenFiles": [
-    "999 Notes/Development and Engineering/Tools and Technologies/Node Commands.md",
+    "999 Notes/Development and Engineering/0. Web Development/04. NodeJS and ExpressJS.md",
+    "999 Notes/Development and Engineering/0. Web Development/05. Query Parameters and Basic HTTP Requests.md",
     "README.md",
     "999 Notes/Development and Engineering/Tools and Technologies/Git and GitHub.md",
+    "999 Notes/Development and Engineering/Tools and Technologies/Node Commands.md",
     "999 Notes/Development and Engineering/Tools and Technologies/Bash and CLI.md",
     "999 Notes/Development and Engineering/0. Web Development/03. Callbacks and Asynchronous JavaScript.md",
     "999 Notes/Development and Engineering/0. Web Development/01. JavaScript built-in Functions and Methods.md",
     "999 Notes/Development and Engineering/0. Web Development/00. JS Foundation.md",
     "555 Templates/Topic Name.md",
-    "999 Notes/Development and Engineering/0. Web Development/04. NodeJS and ExpressJS.md",
-    "999 Notes/Development and Engineering/0. Web Development/Query Parameters.md",
     "000 Dashboard/Goals.md",
     "999 Notes/Development and Engineering/Tools and Technologies",
     "999 Notes/Web Development/Javascript/03..md",
